@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+//Styling for Password Generator
+
+.password-generator-container {
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.password-generator-container h1 {
+  margin-bottom: 20px;
+}
+
+.password-generator-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.password-generator-container input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.password-generator-container label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.password-generator-container button {
+  margin: 10px 5px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0f62fe;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.password-generator-container button:hover {
+  background-color: #0353e9;
+}
+
+.password-generator-container span {
+  font-weight: bold;
+}
